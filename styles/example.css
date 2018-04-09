@@ -1,0 +1,44 @@
+/*if you need add style to tag:
+div {
+
+}
+input {
+
+}
+
+if you need add style to class:
+.red {
+
+}
+
+if you need add style to <input class="red"></input>
+
+input.red {
+
+}*/
+
+
+/*
+padding - this is distance beetwin the block and its child 
+*/
+
+div{
+	width: 100px;
+	height: 100px;
+	border: solid 2px red;
+}
+
+.parent {
+	border-color: pink;
+	height: auto;
+	width: auto;
+	padding: 50px;
+}
+
+.child {
+	margin: 50px;
+}
+
+p {
+	border: solid 2px green;
+}
