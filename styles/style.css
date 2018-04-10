@@ -16,11 +16,31 @@ html, body {
 .content {
   padding: 0 0 40px 0; }
 
+.container {
+  width: 980px; }
+
+.main-text {
+  padding-top: 30px; }
+  .main-text img {
+    padding-top: 0;
+    margin-top: 0; }
+
+.radio-q {
+  height: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+form p {
+  height: 15px; }
+
 textarea {
   display: block;
   clear: both;
   margin: 20px auto;
   width: 100%; }
+
+strong {
+  font-size: 120%; }
 
 .bg-task {
   background-color: #92D14F;
@@ -94,6 +114,12 @@ img {
 .img-thumbnail {
   border-color: #92D14F;
   max-width: 200px; }
+
+.img-responsive {
+  width: 200px;
+  height: 100%;
+  display: inline-block;
+  float: left; }
 
 .foto {
   padding-left: 5%; }
