@@ -1,10 +1,12 @@
+@charset "UTF-8";
 /*compiled with sass*/
 html, body {
   font-family: "Comfortaa", cursive;
   font-size: 16px;
   width: 100%;
   height: 100%;
-  color: #222; }
+  color: #222;
+  margin: 0; }
 
 .wrapper {
   width: 980px;
@@ -143,13 +145,14 @@ img {
     width: 100%;
     overflow: visible; }
   .main_form button {
-    width: 100px;
+    overflow: hidden;
+    width: 15%;
     height: 50px;
     border-radius: 10px;
     border: 2px solid #79bc31;
     background-color: #92D14F;
     color: #000000;
-    margin: 30px; }
+    margin-bottom: 30px; }
     .main_form button:hover {
       cursor: pointer;
       background-color: #456b1c; }
@@ -238,11 +241,53 @@ p.thought {
 
 .panel-footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0 !important;
   width: 980px;
   margin-top: 60px;
+  margin-bottom: 0;
   height: 40px;
   background-color: #92D14F;
   border-top: 2px solid #79bc31; }
+
+/* ╨б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╨╜╨╡╨░╨║╤В╨╕╨▓╨╜╨╛╨│╨╛ ╨╝╨╛╨┤╨░╨╗╤М╨╜╨╛╨│╨╛ ╨╛╨║╨╜╨░ */
+.modal {
+  background: #fff;
+  left: 50%;
+  margin: -250px 0 0 -40%;
+  position: absolute;
+  display: none;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  .modal:target {
+    display: block;
+    top: 30%;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out; }
+  .modal header, .modal footer-m {
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0; }
+  .modal footer-m {
+    border: none;
+    border-top: 1px solid #e7e7e7;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px; }
+  .modal section, .modal header, .modal footer-m {
+    padding: 15px;
+    z-index: 200; }
+  .modal h2 {
+    margin: 0; }
+  .modal .btn {
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */
