@@ -13,7 +13,8 @@ html, body {
   margin: 0 auto;
   min-height: 100%;
   background-color: white;
-  position: relative; }
+  position: relative;
+  padding: 0; }
 
 .content {
   padding: 0 0 40px 0; }
@@ -289,5 +290,21 @@ p.thought {
     margin: 0; }
   .modal .btn {
     float: right; }
+
+/*
+cards choosing
+*/
+#card1 {
+  background-image: url("../img/cards/rub.jpg"); }
+  #card1:hover {
+    background-image: url("../img/cards/card3_1.jpg"); }
+
+.gallery {
+  padding: 10px; }
+  .gallery div img {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
