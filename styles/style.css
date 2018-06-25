@@ -294,17 +294,115 @@ p.thought {
 /*
 cards choosing
 */
-#card1 {
-  background-image: url("../img/cards/rub.jpg"); }
-  #card1:hover {
-    background-image: url("../img/cards/card3_1.jpg"); }
+.video {
+  position: relative; }
+
+iframe {
+  position: relative;
+  margin: 20px auto; }
 
 .gallery {
   padding: 10px; }
+  .gallery h4 {
+    font-weight: 200;
+    text-align: center; }
   .gallery div img {
     width: 100%;
     height: 200px;
     margin: auto;
-    overflow: hidden; }
+    overflow: hidden;
+    background-image: url("../img/cards/rub.jpg"); }
+    .gallery div img:hover {
+      background-image: url("../img/cards/rub_hover.jpg"); }
+
+.gallery-h {
+  padding: 10px; }
+  .gallery-h h4 {
+    font-weight: 200;
+    text-align: center; }
+  .gallery-h div img {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    background: url("../img/cards/rub-h.jpg") no-repeat center top fixed;
+    background-size: cover; }
+    .gallery-h div img:hover {
+      background: url("../img/cards/rub_hover-h.jpg") no-repeat center top fixed; }
+    .gallery-h div img:hover {
+      background-size: cover; }
+
+#hide-block {
+  display: none; }
+
+#hide-block2 {
+  display: none; }
+
+.list-style ul {
+  margin-left: 30%; }
+
+.input input {
+  display: inline-block;
+  width: 60px; }
+.input p {
+  text-indent: 0;
+  margin: 2px 28%; }
+
+.input-h input {
+  display: inline-block;
+  width: 60px; }
+.input-h p {
+  text-indent: 0;
+  margin: 2px 35%; }
+
+#wrapper-tool {
+  margin: 0;
+  padding: 0; }
+
+#a {
+  color: #79bc31; }
+
+.tooltip {
+  border: 2px solid #79bc31;
+  background: white;
+  font-size: .9em;
+  color: #222;
+  padding: 5px;
+  box-shadow: 0 0 10px 0 black;
+  border-radius: 10px;
+  opacity: 1;
+  z-index: 1; }
+
+.pass a {
+  text-decoration: none;
+  font-size: 1em;
+  position: relative;
+  transition: all 1.5s; }
+  .pass a:before {
+    content: "";
+    width: 0;
+    height: 0.1em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #92D14F;
+    transition: all 1.5s; }
+  .pass a:hover:before {
+    width: 100%;
+    left: 0;
+    background: #8e4fd1; }
+
+/*.gallery{
+	padding: 10px;
+	
+	 div {	 	
+	 	img{
+		width: 100%;
+	   height: 200px;
+		margin: auto;
+		overflow:hidden;
+	}
+}
+}*/
 
 /*# sourceMappingURL=style.css.map */

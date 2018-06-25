@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Марафон</title>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link href="styles/style.css" rel="stylesheet">
+     <link rel="shortcut icon" href="ico.png" type="image/png">
+     
+
+</head>
+<body background="img/te-fon.jpg">
+
+    <div class="wrapper">
+
+            <header>
+                <div class="bal1"></div>
+                <div class="bal2"></div>
+                <div class="baloon">
+                    <p class="thought text-success">"Диалог всегда <br>результативнее, <br>чем наказание"</p>
+                </div>
+                <div class="label" ><img src="img/papirus1.png"></div>
+                <div class="container-fluid header">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <img src="img/header/heder7_8.jpg" height="300" " alt="" class="">
+                        </div>
+                        <div class="col-xs-8 clearing">
+                           <img src="img/heder.jpg" height="300" alt="" class="">
+                        </div>
+                        <div class="col-xs-2 clearing  ">
+                            <img src="img/wisdom/heder07.png" height="300" alt="" class="">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+        <div class="content">
+            <div class="container-fluid ">
+                <div class="row tit-color ">
+                    <div class="col-xs-2 ">
+                    </div>
+                    <div class="col-xs-8 caption">
+                        <h1> День седьмой</h1><h5><i>Зеркало семьи</i></h5>
+                    </div>
+                    <div class="col-xs-2 ">
+                    </div>
+                </div>
+               
+                <div class="row">
+                    
+                    <div class="container-fluid ">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                            <img src="img/days/day7.png" alt="" class="img-responsive">
+                            <div class="main-text">
+                                <p> </p>
+                               <p>
+                                    <h4>8)  Куда мне двигаться в воспитании своего ребенка в духовном направлении, чтобы решить сложность и проблему  в отношениях/в воспитании?</h4>
+                                   Что мне нужно понять или какое духовное послание «прочесть», чтобы проблема решилась, а отношения с ребенком наладились? <i>(Доступна к выбору 1 карта)</i>
+                                </p>
+
+                                <p><i>Ввиду особенностей сайта записывайте, пожалуйста, номера выбранных карт и ваши комментарии к ним в текстовый файл-дневник на вашем компьютере под заголовком <br>"7 день(8)". Эти данные пригодятся позже ;)</i></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                    </div>
+
+<script type="text/javascript">
+    var COUNT = 0;
+function text(){
+    document.getElementById("hide-block").style.display="block";
+    document.getElementById("hide-block2").style.display="block";
+}
+
+
+
+   function reply_click(clicked_id)
+
+{
+     if  (COUNT < 1) {var ident =  clicked_id  ;
+
+    var path = {card13:"img/cards/card7_85.jpg", card14:"img/cards/card7_86.jpg", card15:"img/cards/card7_87.jpg", card16:"img/cards/card7_88.png", card17:"img/cards/card7_89.jpg", card18:"img/cards/card7_90.jpg",};
+   var source = path[ident];
+   document.getElementById(ident).src = source;
+
+    COUNT +=1;
+} else {var ident = 0;};
+   //console.log(source);
+
+}
+
+
+</script>
+                    <div class="row gallery">
+                        <div   class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                        
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card13" src="" onclick="reply_click(this.id); text()" ><h4>85</h4></div>
+                       
+
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card14" src="" onclick="reply_click(this.id); text()"><h4>86</h4></div>
+                           
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card15" src="" onclick="reply_click(this.id); text()"><h4>87</h4></div>
+
+                        <div   class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                           
+                    </div>
+                    <div class="row gallery">
+                        <div   class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card16" src="" onclick="reply_click(this.id); text()"><h4>88</h4></div>
+
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card17" src="" onclick="reply_click(this.id); text()"><h4>89</h4></div>
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card18" src="" onclick="reply_click(this.id); text()"><h4>90</h4></div>
+
+                        <div   class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+
+                    </div>
+<!--the end of gallery row--> 
+
+
+                    <div class="row " id="hide-block">
+                                    <div class="col-xs-2"></div>
+                                    <div class="col-xs-8">
+                                            <textarea cols="" rows="6" class="form-control" id="userText" placeholder="Описание к первой выбранной карте на этой странице"></textarea></div>
+                                    <div class="col-xs-2"></div>
+                    </div>
+                    
+
+                    <!--text-wrap template-->
+                    <div class="row">
+                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                         </div>
+                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>                  
+                    </div>
+
+                
+                <div class="row text-aside"></div>
+                <div class="row text-aside"></div>
+
+                
+                <form class="main_form">
+                        <div class="">
+                            <div class="col-xs-12 text-right ">
+                                <button><a href="day7_9.html"> Дальше</a></button>
+                            </div>
+                        </div>
+                </form>
+               <div class="row text-aside"></div>
+               <div class="row text-aside"></div>
+               <div class="panel-footer"></div>
+            </div>
+        </div>
+        </div>     
+    </div>
+
+
+</body>
+</html>

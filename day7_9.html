@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Марафон</title>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link href="styles/style.css" rel="stylesheet">
+     <link rel="shortcut icon" href="ico.png" type="image/png">
+     
+
+</head>
+<body background="img/te-fon.jpg">
+
+    <div class="wrapper">
+
+            <header>
+                <div class="bal1"></div>
+                <div class="bal2"></div>
+                <div class="baloon">
+                    <p class="thought text-success">"Диалог всегда <br>результативнее, <br>чем наказание"</p>
+                </div>
+                <div class="label" ><img src="img/papirus1.png"></div>
+                <div class="container-fluid header">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <img src="img/header/heder7_8.jpg" height="300" " alt="" class="">
+                        </div>
+                        <div class="col-xs-8 clearing">
+                           <img src="img/heder.jpg" height="300" alt="" class="">
+                        </div>
+                        <div class="col-xs-2 clearing  ">
+                            <img src="img/wisdom/heder07.png" height="300" alt="" class="">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+        <div class="content">
+            <div class="container-fluid ">
+                <div class="row tit-color ">
+                    <div class="col-xs-2 ">
+                    </div>
+                    <div class="col-xs-8 caption">
+                        <h1> День седьмой</h1><h5><i>Зеркало семьи</i></h5>
+                    </div>
+                    <div class="col-xs-2 ">
+                    </div>
+                </div>
+               
+                <div class="row">
+                    
+                    <div class="container-fluid ">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                            <img src="img/days/day7.png" alt="" class="img-responsive">
+                            <div class="main-text">
+                                <p> </p>
+                               <p>
+                                    <h4>Итог упражнения</h4>
+                                        Попробуйте сложить все выбранные вами карты в одну историю о вашей ситуации.  Слева  с первой карты первого ряда это – начало истории/отражение ситуации, а следующие карты вправо – продолжение истории.  
+                                        </p>
+                                        <p><i>Вводите номер выбранных Вами ранее карт и нажимайте "ОК"</i></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                    </div>
+
+<script type="text/javascript">
+    
+
+
+function getValue(clicked_id)
+{
+    var ident =  clicked_id  ;
+    var con = {a1:"b1", a2:"b2", a3:"b3", a4:"b4", a5:"b5", a6:"b6", a7:"b7", a8:"b8", a9:"b9", a10:"b10", a11:"b11", a12:"b12", a13:"b13", a14:"b14", a15:"b15",};
+    var source = con[ident];
+    console.log(source);
+    var cardNumber = document.getElementById(source).value;
+    
+    var path = ["img/cards/card7_1.jpg", "img/cards/card7_2.jpg", "img/cards/card7_3.jpg", "img/cards/card7_4.jpg", "img/cards/card7_5.jpg", "img/cards/card7_6.jpg", "img/cards/card7_7.jpg", "img/cards/card7_8.jpg", "img/cards/card7_9.jpg", "img/cards/card7_10.jpg", "img/cards/card7_11.jpg", "img/cards/card7_12.jpg", "img/cards/card7_13.jpg", "img/cards/card7_14.jpg", "img/cards/card7_15.jpg", "img/cards/card7_16.png", "img/cards/card7_17.jpg", "img/cards/card7_18.jpg", "img/cards/card7_19.png", "img/cards/card7_20.jpg", "img/cards/card7_21.jpg", "img/cards/card7_22.jpg", "img/cards/card7_23.jpg", "img/cards/card7_24.jpg", "img/cards/card7_25.jpg", "img/cards/card7_26.jpg", "img/cards/card7_27.png", "img/cards/card7_28.jpg", "img/cards/card7_29.jpg", "img/cards/card7_30.jpg", "img/cards/card7_31.png", "img/cards/card7_32.png", "img/cards/card7_33.png", "img/cards/card7_34.jpg", "img/cards/card7_35.jpg", "img/cards/card7_36.jpg", "img/cards/card7_37.jpg", "img/cards/card7_38.png", "img/cards/card7_39.png", "img/cards/card7_40.png", "img/cards/card7_41.png", "img/cards/card7_42.jpg", "img/cards/card7_43.jpg", "img/cards/card7_44.png", "img/cards/card7_45.jpg", "img/cards/card7_46.jpg", "img/cards/card7_47.jpg", "img/cards/card7_48.jpg", "img/cards/card7_49.png", "img/cards/card7_50.png", "img/cards/card7_51.jpg", "img/cards/card7_52.jpg", "img/cards/card7_53.jpg", "img/cards/card7_54.png", "img/cards/card7_55.png", "img/cards/card7_56.jpg", "img/cards/card7_57.png", "img/cards/card7_58.png", "img/cards/card7_59.png", "img/cards/card7_60.png", "img/cards/card7_61.jpg", "img/cards/card7_62.jpg", "img/cards/card7_63.jpg", "img/cards/card7_64.jpg", "img/cards/card7_65.jpg", "img/cards/card7_66.jpg", "img/cards/card7_67.jpg", "img/cards/card7_68.jpg", "img/cards/card7_69.jpg", "img/cards/card7_70.jpg", "img/cards/card7_71.jpg", "img/cards/card7_72.jpg", "img/cards/card7_73.jpg", "img/cards/card7_74.jpg", "img/cards/card7_75.jpg", "img/cards/card7_76.jpg", "img/cards/card7_77.jpg", "img/cards/card7_78.jpg", "img/cards/card7_79.jpg", "img/cards/card7_80.jpg", "img/cards/card7_81.jpg", "img/cards/card7_82.jpg", "img/cards/card7_83.jpg", "img/cards/card7_84.jpg", "img/cards/card7_85.jpg", "img/cards/card7_86.jpg", "img/cards/card7_87.jpg", "img/cards/card7_88.png", "img/cards/card7_89.jpg", "img/cards/card7_90.jpg",];
+  
+   var idArray = {a1:"c1", a2:"c2", a3:"c3", a4:"c4", a5:"c5", a6:"c6", a7:"c7", a8:"c8", a9:"c9", a10:"c10", a11:"c11", a12:"c12", a13:"c13", a14:"c14", a15:"c15",};
+    var pict = idArray[ident];
+   document.getElementById(pict).src = path[cardNumber-1];
+    document.getElementById(ident).style.display="none";
+    document.getElementById(source).style.display="none";
+  }
+
+
+</script>
+                    <div class="row gallery-h">
+                        
+                        <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        </div>
+
+                       
+
+                        <div   class="col-lg-3 col-md-3 col-sm-3 col-xs-3 input-h"><img id="c1" src="" onclick="" ><p><input type="number" id="b1" value=""  /></p>
+                            <p><input type="submit" id="a1" onclick="getValue(this.id);" value="ОК"/></p></div>
+                           
+
+                        <div   class="col-lg-3 col-md-3 col-sm-3 col-xs-3 input-h"><img id="c2" src="" onclick="" ><p><input type="number" id="b2" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a2"  value="ОК"/></p></div>
+                           
+
+                        <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        </div>
+
+                    </div>
+<!--the end of gallery+input row-->
+                    <div class="row">
+                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><p><h5>* для карт с 1 по 12</p>
+                         </div>
+                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>                 
+                    </div>
+
+                    <div class="row gallery">
+                        
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        </div>
+
+                       
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c3" src="" onclick="" ><p><input type="number" id="b3" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a3" value="ОК"/></p></div>
+                           
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c4" src="" onclick="" ><p><input type="number" id="b4" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a4" value="ОК"/></p></div>
+                           
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c5" src="" onclick="" ><p><input type="number" id="b5" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a5" value="ОК"/></p></div>
+
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c6" src="" onclick="" ><p><input type="number" id="b6" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a6" value="ОК"/></p></div>
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        </div>
+
+                    </div>
+<!--the end of gallery+input row-->
+
+                    <div class="row gallery">
+                        
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        </div>
+
+                       
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c7" src="" onclick="" ><p><input type="number" id="b7" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a7" value="ОК"/></p></div>
+                           
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c8" src="" onclick="" ><p><input type="number" id="b8" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a8" value="ОК"/></p></div>
+                           
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c9" src="" onclick="" ><p><input type="number" id="b9" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a9" value="ОК"/></p></div>
+
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c10" src="" onclick="" ><p><input type="number" id="b10" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a10" value="ОК"/></p></div>
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        </div>
+
+                    </div>
+<!--the end of gallery+input row-->
+
+                    <div class="row gallery">
+                        
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        </div>
+
+                       
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c11" src="" onclick="" ><p><input type="number" id="b11" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a11" value="ОК"/></p></div>
+                           
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c12" src="" onclick="" ><p><input type="number" id="b12" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a12" value="ОК"/></p></div>
+                           
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c13" src="" onclick="" ><p><input type="number" id="b13" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a13" value="ОК"/></p></div>
+
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c14" src="" onclick="" ><p><input type="number" id="b14" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a14" value="ОК"/></p></div>
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        </div>
+
+                    </div>
+<!--the end of gallery+input row-->
+
+                    <div class="row gallery">
+                        
+                        <div  class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        </div>
+
+                       
+
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2 input"><img id="c15" src="" onclick="" ><p><input type="number" id="b15" value=""  /></p>
+                            <p><input type="submit" onclick="getValue(this.id)" id="a15" value="ОК"/></p></div>
+                         
+
+                        <div  class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        </div>
+
+                    </div>
+<!--the end of gallery+input row-->
+                    <div class="row">
+                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10"><p><h4><span id="wrapper-tool">
+    <a id="a"><u>Напишите </u></a></span>эту историю...</h4></p>
+                         </div>
+                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>                  
+                    </div>
+                    
+      <script type="text/javascript" src="js/main.js"></script>               
+
+
+                    <div class="row " >
+                                    <div class="col-xs-2"></div>
+                                    <div class="col-xs-8">
+                                            <textarea cols="" rows="10" class="form-control" id="userText" placeholder="Место для текста"></textarea></div>
+                                    <div class="col-xs-2"></div>
+                    </div>
+                    
+
+                    <!--text-wrap template-->
+                    <div class="row">
+                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                         </div>
+                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>                  
+                    </div>
+
+                
+                <div class="row text-aside"></div>
+                <div class="row text-aside"></div>
+
+                
+                <form class="main_form">
+                        <div class="">
+                            <div class="col-xs-12 text-right ">
+                                <button><a href="day7_10.html"> Дальше</a></button>
+                            </div>
+                        </div>
+                </form>
+               <div class="row text-aside"></div>
+               <div class="row text-aside"></div>
+               <div class="panel-footer"></div>
+            </div>
+        </div>
+        </div>     
+    </div>
+
+
+</body>
+</html>

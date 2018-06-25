@@ -30,7 +30,7 @@
                            <img src="img/heder.jpg" height="300" alt="" class="">
                         </div>
                         <div class="col-xs-2 clearing  ">
-                            <img src="img/wisdom/heder02.png" height="300" alt="" class="">
+                            <img src="img/wisdom/heder03.png" height="300" alt="" class="">
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,8 @@
                             <div class="main-text">
                                 <p> </p>
                                <p>Укажите одну из карт. Для этого кликните на ту карту, которая, которая вам отзывается/привлекла внимание/ похожа на меня/манит меня/злит меня/отображает меня/ говорит правду.</p>
-                                <p>Выбрать необходимо наиболее «отзывающуюся» вам карту, не зависимо от того, приятна она вам или нет. Затем опишите ее в блоке для записи. Почему вы ее выбрали, какие чувства вызывает эта карта, какое ваше состояние она напоминает. </p>
+                                <p>Выбрать необходимо наиболее «отзывающуюся» вам карту, не зависимо от того, приятна она вам или нет. Затем <span id="wrapper-tool">
+    <a id="a" class="pass">опишите</a></span> ее в блоке для записи. Почему вы ее выбрали, какие чувства вызывает эта карта, какое ваше состояние она напоминает. </p>
                             </div>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
@@ -65,51 +66,66 @@
 <script type="text/javascript">
    function reply_click(clicked_id)
 {
-
-    //console.log(window.event.target.id); //also working way
-    
+ 
    var ident =  clicked_id  ;
-   /*var path = ["img/cards/card3_1.jpg", "img/cards/card3_2.jpg", "img/cards/card3_3.jpg", "img/cards/card3_4.jpg", "img/cards/card3_5.jpg", "img/cards/card3_6.jpg"];*/
-   var path = {card1:"img/cards/card3_1.jpg", card2:"img/cards/card3_2.jpg", card3:"img/cards/card3_3.jpg", card4:"img/cards/card3_4.jpg", card5:"img/cards/card3_5.jpg", card6:"img/cards/card3_6.jpg"};
+   
+   var path = {card1:"img/cards/card3_1.jpg", card2:"img/cards/card3_2.jpg", card3:"img/cards/card3_3.jpg", card4:"img/cards/card3_4.jpg", card5:"img/cards/card3_5.jpg", card6:"img/cards/card3_6.jpg", card7:"img/cards/card3_7.jpg", card8:"img/cards/card3_8.jpg", card9:"img/cards/card3_9.jpg", card10:"img/cards/card3_10.jpg", card11:"img/cards/card3_1.jpg", card12:"img/cards/card3_2.jpg",};
    var source = path[ident];
    document.getElementById(ident).src = source;
-   console.log(source);
-   
-   //console.log(ident)
+   //console.log(source);
+
 }
 
-/*function show(over_id){
-    var sh = over_id;
-document.getElementById('1').src ='img/cards/card3_1.jpg'
-}
-function hide(from_id){
-    var out = from_id;
-    document.getElementById('1').src ='img/cards/rub.jpg'
-}*/
-/*function replied_click(clicked_id)
-{
-    console.log(clicked_id);
-    event.srcElement.id
-}*/
+
 </script>
                     <div class="row gallery">
                         
-                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card1" src="" onclick="reply_click(this.id)" ></div>
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card1" src="" onclick="reply_click(this.id)" ><h4>1</h4></div>
                        
 
-       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card2" src="img/cards/rub.jpg" onclick="reply_click()"></div>
-                       
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card2" src="" onclick="reply_click(this.id)"><h4>2</h4></div>
+                           
 
-                       <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card3" src="img/cards/rub.jpg" onclick="reply_click()"></div>
-                       
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card3" src="" onclick="reply_click(this.id)"><h4>3</h4></div>
+                           
 
-       <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card3_4" src="img/cards/rub.jpg" onclick="reply_click()"></div>
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card4" src="" onclick="reply_click(this.id)"><h4>4</h4></div>
 
 
-                       <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card3_5" src="img/cards/rub.jpg" onclick="reply_click()"></div>
-                       <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card3_6" src="img/cards/rub.jpg" onclick="reply_click()"></div>
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card5" src="" onclick="reply_click(this.id)"><h4>5</h4></div>
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card6" src="" onclick="reply_click(this.id)"><h4>6</h4></div>
 
                     </div>
+<!--the end of gallery row--> 
+
+                    <div class="row gallery">
+                        
+                        <div   class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card7" src="" onclick="reply_click(this.id)" ><h4>7</h4></div>
+                       
+
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card8" src="" onclick="reply_click(this.id)"><h4>8</h4></div>
+                           
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card9" src="" onclick="reply_click(this.id)"><h4>9</h4></div>
+                           
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card10" src="" onclick="reply_click(this.id)"><h4>10</h4></div>
+
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card11" src="" onclick="reply_click(this.id)"><h4>11</h4></div>
+
+                        <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img id="card12" src="" onclick="reply_click(this.id)"><h4>12</h4></div>
+
+                    </div>
+<!--the end of gallery row--> 
+                    <div class="row">
+                                    <div class="col-xs-2"></div>
+                                    <div class="col-xs-8">
+                                            <textarea cols="" rows="6" class="form-control" id="userText" placeholder="Место для текста"></textarea></div>
+                                    <div class="col-xs-2"></div>
+                    </div>
+
                     <div class="row">
                         <div id="card3_7" class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
                        <div id="card3_8" class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
@@ -127,17 +143,17 @@ function hide(from_id){
                          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>                  
                     </div>
 
-                
+   <script type="text/javascript" src="js/main.js"></script>             
                 <div class="row text-aside"></div>
                 <div class="row text-aside">
                     
                 </div>
 
-            </div>     
+                
                 <form class="main_form">
                         <div class="">
                             <div class="col-xs-12 text-right ">
-                                <button><a href="day3_4_1.html"> Дальше</a></button>
+                                <button><a href="day3_4_2.html"> Дальше</a></button>
                             </div>
                         </div>
                 </form>

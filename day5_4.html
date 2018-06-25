@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Марафон</title>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link href="styles/style.css" rel="stylesheet">
+     <link rel="shortcut icon" href="ico.png" type="image/png">
+     
+
+</head>
+<body background="img/te-fon.jpg">
+
+    <div class="wrapper">
+
+            <header>
+                <div class="bal1"></div>
+                <div class="bal2"></div>
+                <div class="baloon">
+                    <p class="thought text-success">"Диалог всегда <br>результативнее, <br>чем наказание"</p>
+                </div>
+                <div class="label" ><img src="img/papirus1.png"></div>
+                <div class="container-fluid header">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <img src="img/header/heder5_6.jpg" height="300" " alt="" class="">
+                        </div>
+                        <div class="col-xs-8 clearing">
+                           <img src="img/heder.jpg" height="300" alt="" class="">
+                        </div>
+                        <div class="col-xs-2 clearing  ">
+                            <img src="img/wisdom/heder05.png" height="300" alt="" class="">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+        <div class="content">
+            <div class="container-fluid ">
+                <div class="row tit-color ">
+                    <div class="col-xs-2 ">
+                    </div>
+                    <div class="col-xs-8 caption">
+                        <h1> День пятый</h1><h5><i>(Я знаю, он знает, мы не знаем)</i></h5>
+                    </div>
+                    <div class="col-xs-2 ">
+                    </div>
+                </div>
+               
+                <div class="row">
+                    
+                    <div class="container-fluid ">
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                            <img src="img/days/day5.png" alt="" class="img-responsive">
+                            <div class="main-text">
+                                <p> </p>
+                               <p>Как в итоге изменятся наши отношения с ребенком?</p>
+                               <p> Что будет, если не опускать руки и решиться на изменения в отношениях с ребенком?</p>
+                               <p><em>(доступно к выбору 2 карты)</em></p>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                    </div>
+
+<script type="text/javascript">
+    var COUNT = 0;
+
+   function reply_click(clicked_id)
+{
+     if  (COUNT < 2) {var ident =  clicked_id  ;
+
+    var path = {card13:"img/cards/card5_49.jpg", card14:"img/cards/card5_50.jpg", card15:"img/cards/card5_51.jpg", card16:"img/cards/card5_52.jpg", card17:"img/cards/card5_53.jpg", card18:"img/cards/card5_54.jpg",};
+   var source = path[ident];
+   document.getElementById(ident).src = source;
+    COUNT +=1;
+} else {var ident = 0;};
+   //console.log(source);
+
+}
+
+
+</script>
+                <div class="row gallery">
+                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">   
+                        <div   class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="card13" src="" onclick="reply_click(this.id)" ><h4>49</h4></div>
+                       
+
+                        <div   class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="card14" src="" onclick="reply_click(this.id)"><h4>50</h4></div>
+                           
+
+                        <div   class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="card15" src="" onclick="reply_click(this.id)"><h4>51</h4></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                </div>
+<!--the end of gallery row--> 
+
+                <div class="row gallery">    
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"> 
+                        <div   class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="card16" src="" onclick="reply_click(this.id)"><h4>52</h4></div>
+
+
+                        <div   class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="card17" src="" onclick="reply_click(this.id)"><h4>53</h4></div>
+
+                        <div   class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="card18" src="" onclick="reply_click(this.id)"><h4>54</h4></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                </div>
+<!--the end of gallery row--> 
+
+                    
+                    
+
+                    <div class="row">
+                                    <div class="col-xs-2"></div>
+                                    <div class="col-xs-8">
+                                            <textarea cols="" rows="6" class="form-control" id="userText" placeholder="Место для текста"></textarea></div>
+                                    <div class="col-xs-2"></div>
+                    </div>
+
+                    <!--text-wrap template-->
+                    <div class="row">
+                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                         </div>
+                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>                  
+                    </div>
+
+                
+                <div class="row text-aside"></div>
+                <div class="row text-aside"></div>
+
+                
+                <form class="main_form">
+                        <div class="">
+                            <div class="col-xs-12 text-right ">
+                                <button><a href="day5_5.html"> Дальше</a></button>
+                            </div>
+                        </div>
+                </form>
+               <div class="row text-aside"></div>
+               <div class="row text-aside"></div>
+               <div class="panel-footer"></div>
+            </div>
+        </div>
+        </div>     
+    </div>
+
+
+</body>
+</html>
